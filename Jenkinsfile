@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Python 설치') {
             steps {
-                sh 'apt-get install -y python3'
+                sh 'sudo apt-get install -y python3'
             }
         }
         stage('Python 실행') {
